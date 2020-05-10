@@ -1,0 +1,163 @@
+main{
+    z-index: 0;
+}
+
+
+
+
+.div-break{
+    margin-top: 50px;
+}
+
+.page{
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.wave-container{
+    position: relative;
+    border-bottom-right-radius:500px 10%;
+    border-bottom-left-radius: 500px 10%;
+    overflow: hidden;
+}
+.wave-container > svg {
+  display: block;
+  background-attachment: fixed;
+  transform-origin: bottom;
+  animation: animateWave 2.3s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+}
+
+.header-text{
+    color: white;
+    text-align: center;
+}
+.head-bg{
+    background-color: #7a19f1;
+    background-attachment: fixed;
+}
+
+.bg{
+   
+    position: relative;
+    color: #fff;
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    background-attachment: fixed;
+    border-bottom-right-radius:500px 5%;
+    border-bottom-left-radius: 500px 5%;
+}
+
+
+
+.text{
+    margin-top: 100px;
+    text-align: center!important;
+}
+
+html{
+    box-sizing: border-box;
+}
+body {
+    
+    margin: 0;
+    font-family: system-ui, sans-serif;
+  }
+
+
+.cust-progress{
+    height: 2rem;
+    width: 400px;
+    background-color: rgb(182, 167, 167);
+    margin-bottom: 20px;
+}
+
+.html{
+    background-color: rgba(10, 10, 172, 0.445);
+}
+.css{
+    background-color: rgba(199, 202, 0, 0.678);
+}
+.js{
+    background-color: rgba(202, 0, 158, 0.527);
+}
+.pt{
+    background-color: rgba(0, 124, 155, 0.534);
+}
+
+.bg-img{
+
+    height: 30vh;
+    width: 100%;
+    background-image: url(./bg_img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/* .box{
+    position: relative;
+    height: 500px;
+    width: 100vw;
+} */
+
+
+.car-bg{
+    background-image: linear-gradient(blue,violet);
+}
+
+.carousel-item img{
+    height: 400px;
+    width: 100vw;
+    object-fit: contain;
+}
+
+.carousel-inner  p{
+    color:yellow;
+}
+
+
+.carousel-inner  h5{
+    color:rgb(0, 255, 42);
+}
+
+.pro-bg{
+    background: rgb(16,77,240);
+background: linear-gradient(90deg, rgba(16,77,240,0.9640231092436975) 0%, rgba(214,17,14,1) 52%, rgba(215,255,0,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========ANIMATIONS============================= */
+
+@keyframes animateWave {
+    0% {
+      transform: scale(1,0);
+    }
+    100% {
+      transform: scale(1,1);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
