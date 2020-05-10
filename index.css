@@ -121,8 +121,9 @@ body {
 }
 
 .pro-bg{
-    background: rgb(16,77,240);
-background: linear-gradient(90deg, rgba(16,77,240,0.9640231092436975) 0%, rgba(214,17,14,1) 52%, rgba(215,255,0,1) 100%);
+    background-image: linear-gradient(to top,blue,violet);
+    /* background: rgb(16,77,240);
+background: linear-gradient(90deg, rgba(16,77,240,0.9640231092436975) 0%, rgba(214,17,14,1) 52%, rgba(215,255,0,1) 100%); */
 }
 
 
