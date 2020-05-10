@@ -127,9 +127,13 @@ background: linear-gradient(90deg, rgba(16,77,240,0.9640231092436975) 0%, rgba(2
 }
 
 
+.card-mar{
+    margin: 20px;
+}
 
-
-
+.zoom:hover{
+    transform: scale(1.05);
+}
 
 
 
